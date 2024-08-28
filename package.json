@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@vuepic/vue-datepicker": "^9.0.0",
+    "date-fns": "^3.6.0",
+    "nuxt": "^3.12.4",
+    "vue": "latest",
+    "vue-tsc": "^2.0.29",
+    "vuetify": "^3.6.13"
+  },
+  "devDependencies": {
+    "@nuxtjs/google-fonts": "^3.2.0"
+  }
+}
